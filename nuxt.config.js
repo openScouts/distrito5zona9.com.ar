@@ -3,7 +3,7 @@ import fs from "fs";
 require("dotenv").config();
 
 export default {
-  mode: "universal",
+  mode: "spa",
 
   server: {
     https: {
@@ -67,7 +67,7 @@ export default {
   css: [
     //"@/assets/scss/style.scss"
     "bootstrap-css-only/css/bootstrap.min.css",
-    "mdbvue/build/css/mdb.css"
+    "mdbvue/lib/css/mdb.min.css"
   ],
 
   /*
@@ -77,7 +77,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  devModules: [],
+  buildModules: [],
   /*
    ** Nuxt.js modules
    */
@@ -152,10 +152,24 @@ export default {
       }
     },
     publicPath: "/_app/",
+    babel: {
+      presets({ isServer }) {
+        return [
+          [
+            require.resolve("@nuxt/babel-preset-app"),
+            // require.resolve('@nuxt/babel-preset-app-edge'), // For nuxt-edge users
+            {
+              buildTarget: isServer ? "server" : "client",
+              corejs: { version: 3 }
+            }
+          ]
+        ];
+      }
+    },
     /*
      ** You can extend webpack config here
      */
     extend(config, ctx) {},
-    transpile: ["mdbvue"]
+    transpile: ["mdbvue/lib/components"]
   }
 };
