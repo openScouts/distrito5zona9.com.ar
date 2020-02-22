@@ -4,48 +4,56 @@
       "codigo": "dd",
       "funcion": "Director de Distrito",
       "nombre": "M.S. Juan Vultaggio",
+      "correo": "z9d5.director@scouts.org.ar",
       "descripcion": "El Director de Distrito es la máxima autoridad operacional en el Distrito. Apoya a los Grupos Scouts del Distrito en todo aquello que tienda  al buen funcionamiento  y al crecimiento cualitativo y cuantitativo de la Asociación en el territorio"
     },
     {
       "codigo": "adci",
       "funcion": "Comunicaciones Institucionales",
       "nombre": "M.S. Ivana Predmesnik",
+      "correo": "z9d5.comunicaciones@scouts.org.ar",
       "descripcion": "Sus tareas consisten en asistir al Director de Distrito, promover, coordinar y dirigir todas las actividades distritales que tengan relación con la aplicación de la Pólitica de Comunicaciones e Imagen de la Asociación en el Distrito."
     },
     {
       "codigo": "adj",
       "funcion": "Juventud",
       "nombre": "Julieta Cardozo",
+      "correo": "z9d5.juventud@scouts.org.ar",
       "descripcion": "Sus tareas consisten en asistir al Director de Distrito, en funciones técnicas relativas a la supervisión de la correcta aplicación de la Politica de Juventud."
     },
     {
       "codigo": "adp",
       "funcion": "Programa de Jóvenes",
       "nombre": "M.S. Florencia Moreira",
+      "correo": "z9d5.programa@scouts.org.ar",
       "descripcion": "Sus tareas consisten en asistir al Director de Distrito, en funciones técnicas relativas a la supervisión de la correcta aplicación del Método Scout y del Programa Educativo."
     },
     {
       "codigo": "adayf",
-      "funcion": "Administración y Finanzas",
+      "funcion": "M.S. Administración y Finanzas",
       "nombre": "Alberto Mastropierro",
+      "correo": "z9d5.finanzas@scouts.org.ar",
       "descripcion": "Sus tareas consisten en asistir al Director de Distrito, en funciones relativas a la aplicación en el Distrito de las Políticas de Administración y Finanzas de la asociación."
     },
     {
       "codigo": "adams",
       "funcion": "Adultos en el Movimiento Scout",
-      "nombre": "M.S. Eva Sechi",
+      "nombre": "M.S. Gustavo Meza",
+      "correo": "z9d5.adultos@scouts.org.ar",
       "descripcion": "Sus tareas consisten en asistir al Director de Distrito, en aquellas funciones técnicas relativas a la supervisión de la correcta aplicación de la Política de Recursos Adultos."
     },
     {
       "codigo": "ades",
-      "funcion": "Encuentros Scouts",
+      "funcion": "Infraestructura",
       "nombre": "Sandra Mezquida",
+      "correo": "infraestructura@distrito5zona9.com.ar",
       "descripcion": "Sus tareas consisten en asistir al Director de Distrito en los temas relacionados con la infraestructura de eventos, actividades, experiencias de formación y todo aquello que asi lo que requiera. "
     },
     {
       "codigo": "adpc",
       "funcion": "Asesora Pastoral Catolica",
       "nombre": "Sandra Mezquida",
+      "correo": "pastoral@distrito5zona9.com.ar",
       "descripcion": "Su función es asistir al Director de Distrito y a los grupos scouts en los temas relacionados con el credo Catolico dentro del marco de nuestras actividades scouts y todo aquello que asi lo que requiera. "
     }
   ]

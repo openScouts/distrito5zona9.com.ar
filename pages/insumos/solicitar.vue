@@ -1,14 +1,14 @@
 <template>
   <mdb-container>
-    <h1 class="h1-responsive">Biblioteca Distrital</h1>
-    <hr />
+    <h1 class="h1-responsive font-weight-bold text-center my-5">
+      Solicitud de Insumos Distritales
+    </h1>
     <div class="embed-responsive embed-responsive-16by9">
       <iframe
-        class="embed-responsive-item"
-        src="https://drive.google.com/embeddedfolderview?id=1C3RzQ9XMmme1gWKQyBT7equTfAl-ZCQ_#list"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdRRC6XcQTBzr0jQ5hwJpR40t_E7CU0Pd8vRB8E2qthSZhihA/viewform?embedded=true"
         allowfullscreen
       >
-        Cargando datos ....
+        Cargando…
       </iframe>
     </div>
   </mdb-container>
@@ -16,14 +16,17 @@
 
 <script>
 import { mdbContainer } from "mdbvue";
+
 export default {
   components: {
     mdbContainer
   },
-
+  data() {
+    return {};
+  },
   head() {
     return {
-      title: "Biblioteca Distrital"
+      title: "Quienes Somos"
     };
   }
 };

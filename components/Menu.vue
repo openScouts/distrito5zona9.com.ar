@@ -3,7 +3,8 @@
     <mdb-navbar-toggler>
       <mdb-navbar-nav>
         <mdb-nav-item to="/" active>Inicio</mdb-nav-item>
-        <mdb-nav-item to="/padres">Padres</mdb-nav-item>
+        <mdb-nav-item to="/familia">Familia</mdb-nav-item>
+        <mdb-nav-item to="/acciones">Acciones</mdb-nav-item>
         <mdb-nav-item to="/nosotros">Nosotros</mdb-nav-item>
         <mdb-nav-item to="/comite">Comite</mdb-nav-item>
         <mdb-nav-item to="/grupos">Grupos</mdb-nav-item>
@@ -23,32 +24,39 @@
           <mdb-icon fab icon="instagram" />
         </a>
       </mdb-navbar-nav>-->
-
-      
     </mdb-navbar-toggler>
 
-        <ul class="navbar-nav ml-auto nav-flex-icons">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/distritocinco.zonanueve/">
-            <i class="fab fa-lg fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/caseroft/distrito5zona9.ar">
-            <i class="fab fa-lg fa-github"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.instagram.com/distrito5zona9/">
-            <i class="fab fa-lg fa-instagram"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://web.whatsapp.com/send?phone=5491154208465">
-            <i class="fab fa-lg fa-whatsapp"></i>
-          </a>
-        </li>
-        </ul>
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="https://www.facebook.com/distritocinco.zonanueve/"
+        >
+          <i class="fab fa-lg fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="https://github.com/caseroft/distrito5zona9.ar"
+        >
+          <i class="fab fa-lg fa-github"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/distrito5zona9/">
+          <i class="fab fa-lg fa-instagram"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="https://web.whatsapp.com/send?phone=5491154208465"
+        >
+          <i class="fab fa-lg fa-whatsapp"></i>
+        </a>
+      </li>
+    </ul>
   </mdb-navbar>
 </template>
 

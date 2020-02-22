@@ -16,9 +16,13 @@
     <h4>Link a Google Calendar</h4>
     <hr />
     <a
-      class="btn waves-light"
+      class="btn waves-light success-color white-text"
       href="https://calendar.google.com/calendar/embed?src=d7oe15ml0vft4sqs9ohnu724es%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires"
-    >Ir a google Calendar</a>
+    >Ir a google Calendar del Distrito</a>
+        <a
+      class="btn waves-light info-color white-text"
+      href="https://calendar.google.com/calendar/embed?src=zona9.org.ar_6fgl3k2ddd0jfg589e8cejtpms%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires"
+    >Ir a google Calendar de la zona</a>
   </div>
 </template>
     

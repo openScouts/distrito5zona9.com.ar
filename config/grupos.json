@@ -10,8 +10,8 @@
     "Pagina Web": "",
     "Facebook": "http://www.facebook.com/nombrescout.santocristo",
     "colores": "#955400,#ffea05",
-    "Latitud": "##########",
-    "Longitud": "##########"
+    "Latitud": "-34.6203749",
+    "Longitud": "-58.5333034"
   },
   {
     "id": 117,
@@ -24,8 +24,8 @@
     "Pagina Web": "",
     "Facebook": "http://www.facebook.com/nombrescout.nuestrasenoradeloreto",
     "colores": "#d40001,#010000",
-    "Latitud": "##########",
-    "Longitud": "##########"
+    "Latitud": "-34.6070915",
+    "Longitud": "-58.5309983"
   },
   {
     "id": 132,
@@ -38,8 +38,8 @@
     "Pagina Web": "",
     "Facebook": "http://www.facebook.com/nombrescout.santateresita.9",
     "colores": "#003b95,#ffcc00",
-    "Latitud": "##########",
-    "Longitud": "##########"
+    "Latitud": "-34.5980085",
+    "Longitud": "-58.5337852"
   },
   {
     "id": 136,
@@ -52,8 +52,8 @@
     "Pagina Web": "",
     "Facebook": "https://www.facebook.com/groups/36613640865/",
     "colores": "#04b50c,#855700",
-    "Latitud": "##########",
-    "Longitud": "##########"
+    "Latitud": "-34.5974178",
+    "Longitud": "-58.5464392"
   },
   {
     "id": 137,
@@ -66,15 +66,15 @@
     "Pagina Web": "https://www.la-merced.com.ar",
     "Facebook": "https://www.facebook.com/nombrescout.lamerced.1",
     "colores": "#fe0002,#FFF,#17b314",
-    "Latitud": "##########",
-    "Longitud": "##########"
+    "Latitud": "-34.6091502",
+    "Longitud": "-58.5633946"
   },
   {
     "id": 9139,
     "distrito": 5,
     "nombre": "distrito 5",
     "fundacion": "03/12/2001",
-    "direccion": "",
+    "direccion": "Nuestra Señora de la Merced 4624",
     "localidad": "Caseros - Santos Lugares - José Ingenieros - Villa Raffo - Saenz Peña ",
     "partido": "Tres de Febrero",
     "Pagina Web": "http://www.distrito5zona9.com.ar",
