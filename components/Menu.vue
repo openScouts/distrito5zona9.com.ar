@@ -30,7 +30,8 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="https://www.facebook.com/distritocinco.zonanueve/"
+          target="_blank"
+          href="https://www.facebook.com/distrito5zona9saac/"
         >
           <i class="fab fa-lg fa-facebook-f"></i>
         </a>
@@ -38,19 +39,25 @@
       <li class="nav-item">
         <a
           class="nav-link"
+          target="_blank"
           href="https://github.com/caseroft/distrito5zona9.ar"
         >
           <i class="fab fa-lg fa-github"></i>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.instagram.com/distrito5zona9/">
+        <a
+          class="nav-link"
+          target="_blank"
+          href="https://www.instagram.com/distrito5zona9/"
+        >
           <i class="fab fa-lg fa-instagram"></i>
         </a>
       </li>
       <li class="nav-item">
         <a
           class="nav-link"
+          target="_blank"
           href="https://web.whatsapp.com/send?phone=5491154208465"
         >
           <i class="fab fa-lg fa-whatsapp"></i>
