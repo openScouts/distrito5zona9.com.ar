@@ -37,6 +37,7 @@
 
                 <a
                   class="btn btn-info btn-sm"
+                  target="_blank"
                   :href="
                     'https://www.google.com.ar/maps/dir/' +
                       grupo.Latitud +
@@ -52,9 +53,9 @@
               </li>
               <li class="list-group-item">Partido de {{ grupo.partido }}</li>
               <li class="list-group-item">
-                <a :href="'mailto://grupo' + grupo.id + '@scouts.org.ar'"
-                  >Contactar</a
-                >
+                <a :href="'mailto://grupo' + grupo.id + '@scouts.org.ar'">
+                  Contactar
+                </a>
               </li>
               <!--
               <li class="list-group-item" v-if="grupo.distrito != 0 ">Distrito {{grupo.distrito}}</li>

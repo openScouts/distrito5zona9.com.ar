@@ -53,7 +53,7 @@ export default {
       {
         rel: "stylesheet",
         href:
-          "https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
       }
     ]
   },
@@ -88,7 +88,6 @@ export default {
         id: "UA-92295998-1"
       }
     ],
-    "@nuxtjs/onesignal",
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
     "@nuxtjs/sitemap",
