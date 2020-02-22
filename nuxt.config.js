@@ -117,10 +117,10 @@ export default {
     short_name: "Distrito 5 Zona 9",
     description: "Distrito 5 Zona 9 - Scouts de Argentina",
     lang: "es",
-    background_color: "#E1E1E1",
+    background_color: "#9933cc",
     display: "standalone",
     orientation: "portrait",
-    theme_color: "#23b7e5"
+    theme_color: "#9933cc"
   },
   messages: {
     loading: "Loading...",

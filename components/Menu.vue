@@ -40,7 +40,7 @@
         <a
           class="nav-link"
           target="_blank"
-          href="https://github.com/caseroft/distrito5zona9.ar"
+          href="https://github.com/openscouts/distrito5zona9.com.ar"
         >
           <i class="fab fa-lg fa-github"></i>
         </a>

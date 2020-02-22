@@ -1,8 +1,6 @@
 <template>
   <div>
     <links></links>
-    <!-- Seccion Noticias -->
-
     <h1 class="h1-responsive">Ultimas Noticias</h1>
     <hr />
     <mdb-card-group column>
