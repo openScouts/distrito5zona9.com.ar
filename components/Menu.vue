@@ -58,7 +58,7 @@
         <a
           class="nav-link"
           target="_blank"
-          href="https://web.whatsapp.com/send?phone=5491154208465"
+          href="https://api.whatsapp.com/send?phone=5491154208465"
         >
           <i class="fab fa-lg fa-whatsapp"></i>
         </a>
