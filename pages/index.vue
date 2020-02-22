@@ -15,14 +15,13 @@
             </a>
           </mdb-view>
           <mdb-card-body class="text-center" cascade>
-            <mdb-card-text>{{ noti.message}}</mdb-card-text>
+            <mdb-card-text>{{ noti.message }}</mdb-card-text>
           </mdb-card-body>
         </mdb-card>
       </template>
     </mdb-card-group>
   </div>
 </template>
-    
 
 <script>
 const moment = require("moment");
@@ -93,7 +92,7 @@ export default {
         .get("https://graph.facebook.com/v3.3/distrito5zona9saac/feed", {
           params: {
             access_token:
-              "EAAJSo7qsf6oBAEd6U71CPPaePq67qRn8GFkPCtbg9BbKqYDiBLy4R80aLB0ViqIXclCxGH9kadZBxF1SBJAvwlQsMelmohcpwwCaKCKsIf4SXfuPupntHHbtjR8qwxsgzUXbhZCo7pl0ntZBBi1FDXxaGf6udaAPZCZAT3eHOZCXrLmUff2WFW",
+              "EAAJSo7qsf6oBADOAQpQggJ0rdbjwikDSSvh0FO4vuIm7OFRdchCz7ijxajo2CP9DvXdgsnTc76MbVoFcJMEpDWAFxLEfV7g5AxBgHs4gbqYCeRemZCnMKiI3w6sGDU5ZC0FYfHZCvd3TfXo0vrRlqV6lZCoMNs4dWeF2kJD0yAZDZD",
             fields:
               "created_time,full_picture,message,story,permalink_url,shares,via,comments,picture,sharedposts",
             //fields: 'created_time,event,expanded_width,expanded_height,feed_targeting,from,full_picture,height,icon,id,message,message_tags,parent_id,picture,place,privacy,promotable_id,promotion_status,properties,scheduled_publish_time,shares,story,story_tags,subscribed,target,targeting,timeline_visibility,updated_time,via,video_buying_eligibility,width,comments{application,attachment,can_comment,can_like,can_remove,can_reply_privately,comment_count,created_time,from,id,is_private,like_count,live_broadcast_timestamp,message,message_tags,object,parent,permalink_url,private_reply_conversation,user_likes,is_hidden,comments},permalink_url',
