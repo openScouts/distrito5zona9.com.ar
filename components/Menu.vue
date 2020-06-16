@@ -31,6 +31,7 @@
         <a
           class="nav-link"
           target="_blank"
+          title="Seguinos en Facebook"
           href="https://www.facebook.com/distrito5zona9saac/"
         >
           <i class="fab fa-lg fa-facebook-f"></i>
@@ -40,6 +41,7 @@
         <a
           class="nav-link"
           target="_blank"
+          title="Accede al Codigo fuente de la pagina"
           href="https://github.com/openscouts/distrito5zona9.com.ar"
         >
           <i class="fab fa-lg fa-github"></i>
@@ -48,6 +50,7 @@
       <li class="nav-item">
         <a
           class="nav-link"
+          title="Seguinos en Instragram"
           target="_blank"
           href="https://www.instagram.com/distrito5zona9/"
         >
@@ -56,11 +59,22 @@
       </li>
       <li class="nav-item">
         <a
+          title="Comunicate con el Director de Distrito"
           class="nav-link"
           target="_blank"
           href="https://api.whatsapp.com/send?phone=5491154208465"
         >
           <i class="fab fa-lg fa-whatsapp"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          title="Unite al grupo de Telegram"
+          class="nav-link"
+          target="_blank"
+          href="https://t.me/distrito5zona9"
+        >
+          <i class="fab fa-lg fa-telegram"></i>
         </a>
       </li>
     </ul>
@@ -79,7 +93,7 @@ import {
   mdbDropdownToggle,
   mdbInput,
   mdbBtn,
-  mdbNavbarBrand
+  mdbNavbarBrand,
 } from "mdbvue";
 export default {
   name: "NavigationPage",
@@ -94,7 +108,7 @@ export default {
     mdbDropdownToggle,
     mdbInput,
     mdbBtn,
-    mdbNavbarBrand
-  }
+    mdbNavbarBrand,
+  },
 };
 </script>
