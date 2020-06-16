@@ -42,7 +42,7 @@ import {
   mdbBtn,
   mdbView,
   mdbMask,
-  mdbIcon
+  mdbIcon,
 } from "mdbvue";
 
 export default {
@@ -65,18 +65,18 @@ export default {
     mdbView,
     mdbMask,
     mdbIcon,
-    links
+    links,
   },
 
   data() {
     return {
-      noticias: {}
+      noticias: {},
     };
   },
   filters: {
     fecha: function(value) {
       return moment(value).format("DD/MM/YYYY");
-    }
+    },
   },
   mounted: function() {
     console.log(process.env.GOOGLE_PHOTOS_KEY);
@@ -90,19 +90,19 @@ export default {
         .get("https://graph.facebook.com/v3.3/distrito5zona9saac/feed", {
           params: {
             access_token:
-              "EAAJSo7qsf6oBADOAQpQggJ0rdbjwikDSSvh0FO4vuIm7OFRdchCz7ijxajo2CP9DvXdgsnTc76MbVoFcJMEpDWAFxLEfV7g5AxBgHs4gbqYCeRemZCnMKiI3w6sGDU5ZC0FYfHZCvd3TfXo0vrRlqV6lZCoMNs4dWeF2kJD0yAZDZD",
+              "EAAJSo7qsf6oBAHZC8D8BWLYP1epHDRulhA0YgPcgCZAvZBiwcX1fdLxmKZBbuALnXqXm9Pw9VZAOTBZBhTuXB0aLZBKea2AkhZBkj2VN4KaZCQZCqfwZBRTLOuJ51F3Kz1LbaUXraiiQAaA5r4ckP1WCc1Px6JE4ZBMmXxBSCP6FYMXzRwZDZD",
             fields:
               "created_time,full_picture,message,story,permalink_url,shares,via,comments,picture,sharedposts",
             //fields: 'created_time,event,expanded_width,expanded_height,feed_targeting,from,full_picture,height,icon,id,message,message_tags,parent_id,picture,place,privacy,promotable_id,promotion_status,properties,scheduled_publish_time,shares,story,story_tags,subscribed,target,targeting,timeline_visibility,updated_time,via,video_buying_eligibility,width,comments{application,attachment,can_comment,can_like,can_remove,can_reply_privately,comment_count,created_time,from,id,is_private,like_count,live_broadcast_timestamp,message,message_tags,object,parent,permalink_url,private_reply_conversation,user_likes,is_hidden,comments},permalink_url',
             limit: 10,
-            transport: "cors"
-          }
+            transport: "cors",
+          },
         })
         .then(function(response) {
           self.noticias = response.data;
           //console.log(response);
         });
-    }
-  }
+    },
+  },
 };
 </script>
