@@ -3,8 +3,7 @@ import fs from "fs";
 require("dotenv").config();
 
 export default {
-  mode: "spa",
-
+  ssr: false,
   server: {
     https: {
       key: fs.readFileSync(path.resolve(__dirname, "localhost.key")),
