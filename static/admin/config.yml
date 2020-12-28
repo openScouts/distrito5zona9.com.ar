@@ -15,10 +15,13 @@ collections:
         name: "comite"
         file: "config/comite.json"
         widget: "list"
+        editor:
+          preview: false
         fields:
           - label: "comite"
             name: "comite"
             widget: "list"
+            summary: "{{fields.funcion}} => {{fields.descripcion}}"
             fields:
               - { name: funcion, label: funcion, widget: string }
               - { name: nombre, label: nombre, widget: string }
@@ -28,6 +31,8 @@ collections:
         name: "links"
         file: "config/links.json"
         widget: "list"
+        editor:
+          preview: false
         fields:
           - label: "links"
             name: "links"
@@ -41,6 +46,8 @@ collections:
         name: "grupos"
         file: "config/grupos.json"
         widget: "list"
+        editor:
+          preview: false
         fields:
           - label: "grupos"
             name: "grupos"
@@ -49,7 +56,12 @@ collections:
               - { name: id, label: id, widget: string }
               - { name: distrito, label: distrito, widget: string }
               - { name: nombre, label: nombre, widget: string }
-              - { name: fundacion, label: fundacion, widget: string }
+              - {
+                  name: fundacion,
+                  label: fundacion,
+                  format: "D/M/YYYY",
+                  widget: date,
+                }
               - { name: direccion, label: direccion, widget: string }
               - { name: localidad, label: localidad, widget: string }
               - { name: partido, label: partido, widget: string }
