@@ -1,26 +1,28 @@
-[
-  {
-    "icono": "bullhorn",
-    "titulo": "Mi Rincon Scouts",
-    "descripcion": "Este es tu espacio, aqui podrás ver tu formación e inscribirte a las experiencias de formacion",
-    "link": "https://mirincon.com.ar/"
-  },
-  {
-    "icono": "bullhorn",
-    "titulo": "Cruz del Sur",
-    "descripcion": "Genera alta y movimiento de miembros y otras gestiones asociativas",
-    "link": "https://cruz-del-sur.org.ar"
-  },
-  {
-    "icono": "calendar-alt",
-    "titulo": "Calendario",
-    "descripcion": "Conoce todas las fechas importantes dentro de nuestra zona, como las fechas de formacion",
-    "to": "/calendario"
-  },
-  {
-    "icono": "mail-bulk",
-    "titulo": "Correo Asociativo",
-    "descripcion": "Ingresa a tu correo asociativo",
-    "link": "https://www.scouts.org.ar/email-asociativo"
-  }
-]
+{
+  "links": [
+    {
+      "icono": "bullhorn",
+      "titulo": "Mi Rincon Scouts",
+      "descripcion": "Este es tu espacio, aqui podrás ver tu formación e inscribirte a las experiencias de formacion",
+      "link": "https://mirincon.com.ar/"
+    },
+    {
+      "icono": "bullhorn",
+      "titulo": "Cruz del Sur",
+      "descripcion": "Genera alta y movimiento de miembros y otras gestiones asociativas",
+      "link": "https://cruz-del-sur.org.ar"
+    },
+    {
+      "icono": "calendar-alt",
+      "titulo": "Calendario",
+      "descripcion": "Conoce todas las fechas importantes dentro de nuestra zona, como las fechas de formacion",
+      "to": "/calendario"
+    },
+    {
+      "icono": "mail-bulk",
+      "titulo": "Correo Asociativo",
+      "descripcion": "Ingresa a tu correo asociativo",
+      "link": "https://www.scouts.org.ar/email-asociativo"
+    }
+  ]
+}

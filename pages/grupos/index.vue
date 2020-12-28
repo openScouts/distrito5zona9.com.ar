@@ -3,7 +3,7 @@
     <h1 class="h1-responsive">Grupos del Distrito 5</h1>
     <hr />
 
-    <template v-for="grupo in grupos">
+    <template v-for="grupo in grupos.grupos">
       <div :key="grupo.id">
         <mdb-row>
           <mdb-col lg="5" xl="4">
@@ -79,7 +79,7 @@ import {
   mdbMask,
   mdbIcon,
   mdbView,
-  mdbBtn
+  mdbBtn,
 } from "mdbvue";
 export default {
   components: {
@@ -91,19 +91,19 @@ export default {
     mdbMask,
     mdbIcon,
     mdbView,
-    mdbBtn
+    mdbBtn,
   },
 
   head() {
     return {
-      title: "Grupos del Distrito 5"
+      title: "Grupos del Distrito 5",
     };
   },
   data() {
     return {
-      grupos: Grupos
+      grupos: Grupos,
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>

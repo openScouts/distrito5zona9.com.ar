@@ -1,22 +1,60 @@
 backend:
   name: github
-  repo: https://github.com/openScouts/distrito5zona9.com.ar.git
+  repo: openScouts/distrito5zona9.com.ar
   branch: master
+  site_domain: distrito5zona9
 
 media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
-    format: "frontmatter"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Configuracion"
+    label: "Configuracion"
+    files:
+      - label: "Comite"
+        name: "comite"
+        file: "config/comite.json"
+        widget: "list"
+        fields:
+          - label: "comite"
+            name: "comite"
+            widget: "list"
+            fields:
+              - { name: funcion, label: funcion, widget: string }
+              - { name: nombre, label: nombre, widget: string }
+              - { name: correo, label: correo, widget: string }
+              - { name: descripcion, label: descripcion, widget: markdown }
+      - label: "links"
+        name: "links"
+        file: "config/links.json"
+        widget: "list"
+        fields:
+          - label: "links"
+            name: "links"
+            widget: "list"
+            fields:
+              - { name: icono, label: icono, widget: string }
+              - { name: titulo, label: titulo, widget: string }
+              - { name: descripcion, label: descripcion, widget: string }
+              - { name: link, label: link, widget: string }
+      - label: "grupos"
+        name: "grupos"
+        file: "config/grupos.json"
+        widget: "list"
+        fields:
+          - label: "grupos"
+            name: "grupos"
+            widget: "list"
+            fields:
+              - { name: id, label: id, widget: string }
+              - { name: distrito, label: distrito, widget: string }
+              - { name: nombre, label: nombre, widget: string }
+              - { name: fundacion, label: fundacion, widget: string }
+              - { name: direccion, label: direccion, widget: string }
+              - { name: localidad, label: localidad, widget: string }
+              - { name: partido, label: partido, widget: string }
+              - { name: Pagina Web, label: Pagina Web, widget: string }
+              - { name: Facebook, label: Facebook, widget: string }
+              - { name: colores, label: colores, widget: string }
+              - { name: Latitud, label: Latitud, widget: string }
+              - { name: Longitud, label: Longitud, widget: string }
