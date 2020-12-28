@@ -4,13 +4,7 @@ require("dotenv").config();
 
 export default {
   ssr: false,
-  server: {
-    https: {
-      key: fs.readFileSync(path.resolve(__dirname, "localhost.key")),
-      cert: fs.readFileSync(path.resolve(__dirname, "localhost.cert")),
-    },
-  },
-
+  target: "static",
   /*
    ** Headers of the page
    */
